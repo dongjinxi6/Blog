@@ -6,8 +6,6 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-import VueParticles from 'vue-particles'  
-Vue.use(VueParticles)
 
 /* eslint-disable no-new */
 new Vue({

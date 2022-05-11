@@ -1,37 +1,15 @@
 <template>
-    <div>
-        <vue-particles
-                color="#409eff"
-                :particleOpacity="0.7"
-                :particlesNumber="100"
-                shapeType="star"
-                :particleSize="4"
-                linesColor="#daa520"
-                :linesWidth="2"
-                :lineLinked="true"
-                :lineOpacity="0.4"
-                :linesDistance="150"
-                :moveSpeed="3"
-                :hoverEffect="true"
-                hoverMode="grab"
-                :clickEffect="true"
-                clickMode="push"
-                class="cash"
-        >
-        </vue-particles>
-        <div class="auto_title">
-          <a href="a" class="as">首页</a>
-          <a href="a" class="as">可视化</a>
-        </div>
-    </div>
+  <div class="auto_title">
+    <a href="a" class="asx">首页</a>
+  </div>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {}
-        }
+export default {
+    data() {
+        return {}
     }
+}
 </script>
 
 <style>
