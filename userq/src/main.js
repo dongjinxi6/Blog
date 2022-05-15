@@ -5,6 +5,9 @@ import App from './App'
 import router from './router'
 
 Vue.config.productionTip = false
+import echarts from 'echarts'  //引入echarts
+
+Vue.prototype.$echarts = echarts  //注册组件
 
 
 /* eslint-disable no-new */

@@ -1,14 +1,18 @@
 <template>
   <div class="auto_title">
-    <a href="a" class="asx">首页</a>
+    <router-link to='index' class="as" >首页</router-link>
+    <router-link to='zhexiantu' class="as" >可视化</router-link>
+    <router-link to='index' class="as" >题目</router-link>
   </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return {}
+  data(){
+    return{
+
     }
+  }
 }
 </script>
 
