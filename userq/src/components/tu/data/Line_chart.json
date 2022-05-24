@@ -1,0 +1,36 @@
+{
+
+  "title": {
+      "top":"5%",
+      "left":"5%",
+      "text": "柱状"
+      },
+  "tooltip": {
+      "trigger": "axis"
+  },
+  "xAxis": {
+      "data": ["2022-5-2","2022-5-2","2022-5-2","2022-5-2","2022-5-2"]
+  },
+  "yAxis": {},
+  "grid": [
+      {
+      "bottom": "30%"
+      },
+      {
+      "top": "60%"
+      }
+  ],
+   "legend": {
+      "left":"29%",
+      "top":"6%",
+      "data": ["近七日收益", "哦吼", "Video Ads", "Direct", "Search Engine"]
+  },
+  "series": [{
+      "name": "近七日收益",
+      "type": "bar",
+      "stack": "总量",
+      "showSymbol": false,    
+      "data":  ["50", "300", "20", "100", "5"]
+  }
+  ]
+}

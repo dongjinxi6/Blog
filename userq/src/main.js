@@ -8,6 +8,9 @@ Vue.config.productionTip = false
 import echarts from 'echarts'  //引入echarts
 
 Vue.prototype.$echarts = echarts  //注册组件
+import ElementUi from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'	
+Vue.use(ElementUi)
 
 
 /* eslint-disable no-new */

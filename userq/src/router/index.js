@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import main from '@/components/main/main'
 import index from '@/components/main/index'
-import zhexiantu from '@/components/tu/zhexiantu'
+import echarts from '@/components/tu/echarts'
 
 Vue.use(Router)
 
@@ -19,9 +19,9 @@ export default new Router({
                 component: index,
               },
               {
-                path: '/zhexiantu',
+                path: '/echarts',
               name: 'zhexiantu',
-              component: zhexiantu,
+              component: echarts,
             }
            ]
     },

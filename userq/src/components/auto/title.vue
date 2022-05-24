@@ -1,7 +1,7 @@
 <template>
   <div class="auto_title">
     <router-link to='index' class="as" >首页</router-link>
-    <router-link to='zhexiantu' class="as" >可视化</router-link>
+    <router-link to='echarts' class="as" >可视化</router-link>
     <router-link to='index' class="as" >题目</router-link>
   </div>
 </template>
