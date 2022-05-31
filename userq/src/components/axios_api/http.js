@@ -1,6 +1,6 @@
 import axios from 'axios'
-axios.defaults.baseURL = "http://127.0.0.1:8000/"
-// axios.defaults.baseURL = "http://172.16.240.175/:8000/"
+// axios.defaults.baseURL = "http://127.0.0.1:8000/"
+axios.defaults.baseURL = "http://120.48.42.12:8001/"
 
 //全局设置网络超时
 axios.defaults.timeout = 10000;
